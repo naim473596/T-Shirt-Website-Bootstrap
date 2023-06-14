@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list_item li a{
+    color: white;
+    font-size: 15px;
+}
+
+.list_item li a::after{
+    content:"";
+    width:0px;
+    margin-left:-45px;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    transition: width 0.3s;
+}
+.list_item li a:hover::after{
+    width:40px ;
+    color: white;
+}
+.carousel_naim{
+    margin-top: 80px;
+}
+.heading h1{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.owner_outline{
+    background-color: antiquewhite;
+}
+hr{
+    border-bottom: 5px dotted rgb(0, 0, 0);
+}
+
+.GALARY:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
